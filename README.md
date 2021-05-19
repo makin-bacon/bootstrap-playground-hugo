@@ -5,8 +5,6 @@ Install NPM [https://www.npmjs.com/get-npm]
 
 Install Github Desktop [https://desktop.github.com/]
 
-Go [https://github.com/makin-bacon/bootstrap-playground-hugo]
-
 Go here and clone the repo or add straight to Github Desktop using the button/s on page: [https://github.com/makin-bacon/bootstrap-playground-hugo]
 
 ## Run the following commands in this order
