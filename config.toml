@@ -1,0 +1,35 @@
+  BaseURL = "https://test.noorix.com.au/"
+  languageCode = "en-us"
+  title = "SCU Bootstrap"
+  theme = "mytheme"
+  relativeURLS = true
+
+  googleAnalytics = "UA-1511XXXX-X"
+
+  [params]
+    author = "SCU Marketing staff"
+    description = "Static site playground for web stuff"
+    logo = "https://www.scu.edu.au/favicon.png"
+    images = ["/images/site-feature-image.jpg"]
+
+
+  [module]
+    [[module.mounts]]
+      source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+      target = "assets/js/bootstrap.bundle.min.js"
+
+  [frontmatter]
+    date = ["date", "publishDate", "lastmod"]
+    lastmod = ["lastmod", ":fileModTime", ":default"]
+
+  sectionPagesMenu = "main"
+
+  [menu]
+
+    [[menu.main]]
+
+    [[menu.main]]
+      identifier = "blog"
+      title = "Blog"
+      url = "/blog/"
+      weight = 300
